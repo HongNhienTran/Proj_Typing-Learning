@@ -23,11 +23,7 @@ export default function TypingArea({
 
 }: Props) {
 
-    const {
-
-        state,
-
-    } = useTyping();
+    const { state } = useTyping(content);
 
     const seconds =
         useTimer(
@@ -74,8 +70,8 @@ export default function TypingArea({
 
                                 {index ===
                                     state.currentIndex && (
-                                    <Cursor />
-                                )}
+                                        <Cursor />
+                                    )}
 
                                 <Character
                                     character={
