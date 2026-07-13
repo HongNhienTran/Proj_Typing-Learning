@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Lesson } from "../../types/Lesson";
+import { Lesson } from "../../types/lesson";
 
 interface Props {
     lesson: Lesson;
