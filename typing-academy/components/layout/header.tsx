@@ -10,10 +10,6 @@ export default function Header() {
                 >
                     Typing Academy
                 </Link>
-
-                <span className="text-sm text-gray-500">
-                    Sprint 01
-                </span>
             </div>
         </header>
     );

@@ -12,6 +12,7 @@ import { lessonService } from "@/services/lesson.service";
 
 import TypingArea from "@/components/typing/typing-area";
 
+
 interface Props {
     params: Promise<{
         id: string;
